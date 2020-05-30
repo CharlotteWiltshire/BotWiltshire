@@ -1,0 +1,15 @@
+{
+  "name": "Wiltshire",
+  "version": "1.0.0",
+  "description": "This is a description!",
+  "main": "wiltshire.js",
+  "repository": "https://github.com/CharlotteWiltshire/BotWiltshire.git",
+  "author": "Charlotte <lewdyloli06@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node wiltshire.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
