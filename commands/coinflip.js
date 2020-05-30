@@ -1,5 +1,5 @@
 module.exports = {
-    name: '8ball',
+    name: 'coinflip',
     execute(message, args) {
         let answers = ['Heads!', 'Tails!'];
         let result = Math.floor(Math.random() * answers.length);
