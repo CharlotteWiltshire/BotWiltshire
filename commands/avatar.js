@@ -7,14 +7,14 @@ module.exports = {
         if(!message.mentions.users.first()) {
             AvatarEmbed.setColor('#fffff0')
             AvatarEmbed.setDescription('Your avatar:')
-            AvatarEmbed.setThumbnail(message.author.displayAvatarURL())
+            AvatarEmbed.setThumbnail(message.author.avatarURL)
             
             return message.channel.send(AvatarEmbed)
         } else {
             let User = message.mentions.users.first()
             AvatarEmbed.setColor('#fffff0')
             AvatarEmbed.setDescription(`${User.tag}'s avatar:`)
-            AvatarEmbed.setThumbnail(User.displayAvatarURL())
+            AvatarEmbed.setImage(message.author.avatarURL)
             
             return message.channel.send(AvatarEmbed)
         }
