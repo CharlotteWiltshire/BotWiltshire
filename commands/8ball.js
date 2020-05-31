@@ -15,6 +15,7 @@ module.exports = {
         .setColor('#fffff0')
         .addField('Question: ', question)
         .addField('Answer: ', answers[result]);
+        
         message.channel.send(ballEmbed);
     }
 }
